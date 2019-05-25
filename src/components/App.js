@@ -11,7 +11,7 @@ import Courses from './Courses';
 import NotFound from './NotFound'
 
 const App = () => (
-    <BrowserRouter basename="/react-router-example">
+    <BrowserRouter>
       <div className="container">
         <Header />
           <Switch>
